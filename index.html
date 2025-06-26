@@ -796,10 +796,21 @@
             padding-left: 5px;
         }
 
+        .footer-col p::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 70px;
+            height: 2px;
+            background: var(--accent);
+        }
+
         .social-links {
             display: flex;
             gap: 16px;
-            margin-top: 20px;
+            margin-top: 90px;
+            
         }
 
         .social-links a {
@@ -842,6 +853,7 @@
             .hero-btn2{
                 margin-top: 10px;
             }
+            
             
             .hero-image {
                 width: 45%;
