@@ -241,7 +241,7 @@
             max-width: 600px;
         }
 
-        .hero-btn {
+        .hero-btn, .hero-btn2{
             background: var(--accent);
             color: white;
             border: none;
@@ -256,7 +256,9 @@
             gap: 10px;
         }
 
-        .hero-btn:hover {
+        
+
+        .hero-btn:hover, .hero-btn2:hover {
             transform: translateY(-5px);
             box-shadow: 0 15px 30px #0f554c;
             background: var(--accent-light);
@@ -836,6 +838,10 @@
             .hero h1 {
                 font-size: 48px;
             }
+
+            .hero-btn2{
+                margin-top: 10px;
+            }
             
             .hero-image {
                 width: 45%;
@@ -1000,6 +1006,13 @@
                         Get started
                         <i class="fas fa-arrow-right"></i>
                     </button>
+                    <a href="https://tschuddy.github.io/-Portfolio/">
+                        <button class="hero-btn2">
+                            Portfolio
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </a>
+
                 </div>
             </div>
             <div class="hero-image"></div>
@@ -1181,7 +1194,7 @@
         <div class="projects">
             <div class="container">
                 <div class="projects-header">
-                    <h2>Our portfolio</h2>
+                    <h2>Business portfolio</h2>
                     <button class="nav-btn">Filter projects</button>
                 </div>
                 
